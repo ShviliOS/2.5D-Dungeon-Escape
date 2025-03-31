@@ -44,7 +44,7 @@ public class Player : MonoBehaviour, IDamageable
         Movement();
         if (Input.GetKeyDown(KeyCode.Mouse0) && _isGrounded)
         {
-            Debug.Log("attacking");
+            //Debug.Log("attacking");
             _playerAnim.Attack();
         }
     }
